@@ -1,0 +1,17 @@
+@import '../styles/vars.scss';
+
+
+body{
+    font-family: monospace;
+    background: url('/src/assets/img/imageBackground.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    color: $foreground;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100vh;
+}
